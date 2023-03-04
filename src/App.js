@@ -4,6 +4,7 @@ import Home from './Compoments/Home';
 import Navbar from './Compoments/Navbar/Navbar';
 
 function App() {
+  
   return (
  <>
  <Router>

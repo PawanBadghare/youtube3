@@ -18,6 +18,9 @@ header{
     align-items:center;
     colgroup:var(--text-main);
 }
+.headerDiv:hover{
+    background-color: brown;
+}
 
 .headerDiv div{
     display: flex;
@@ -35,3 +38,61 @@ header{
     border-radius:50px;
     width:40px;
 }
+
+.humburger div{
+    display:flex;
+    flex-direction:column;
+    cursor:pointer;
+}
+
+.humburger:hover{
+    background-color:var(--secondary-light-color);
+}
+
+  .humburger div span{
+     width:17.5px ;
+     height:1px; 
+     background-color:var(--text-main) ;
+  }
+  .humburger div span:nth-child(2){
+     margin:5px o;
+  }
+
+
+  .searchContainer{
+     display:flex;
+     align-items:center;
+     height: 40px;
+     position: relative;
+     min-width: 650px;
+  }
+
+  .searchBox{
+    width: 10%;
+    position: relative;
+  }
+
+  .searchBox input {
+    outline:none;
+    border: 1px solid var(--secondary-light-color);
+    background-color: var(--primary-color);
+    color:var(--text-main);
+    font-size:16px;
+    padding:9px 6px;
+    width: 100;
+    font-family:"Roboto";
+  }
+  .searchBox span{
+    position: absolute;
+    right:10px;
+    cursor:pointer;
+  }
+
+  .searchMic{
+    max-resolution: 12px;
+    cursor:pointer;
+  }
+  .searchBtn{
+    background-color: var(--secondary-light-color);
+    height: 30px;
+  }
